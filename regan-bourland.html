@@ -6,44 +6,129 @@
 		<title>Regan L. Bourland | regan.bourland@gmail.com</title>
 		<link rel="stylesheet" href="css/style.css">
 		<meta name="description" content="Forever a student, I'm always interested in new ideas, processes, and possibilities.">
+		<style>
+			body { padding: 0.75rem 1.5rem; font: normal 500 0.85em/1.25em monospace, sans-serif; background: white; color: #404040; }
+			.text-center { text-align: center; } 
+			a, h2, strong { color: #00606B; }
+			h1, h2 { margin: 0.25rem 0 0.75rem; } 
+			h4, p { margin: 0.75rem 0; }
+			.employ, .educate, .skills { margin: 0.5rem 0 0; padding: 0.25rem 0; border-top: 2px solid #00606B; }
+			header, main, footer { max-width: 1000px; margin: 0 auto; }
+			.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+			.app-grid, .skill-grid { display: grid; grid-column-gap: 0.125em; grid-row-gap: 0.125em; list-style: none; margin: 0.5rem 0; padding: 0; }
+			.app-grid { grid-template-columns: repeat(2, 1fr); }
+			.skill-grid { grid-template-columns: repeat(2, 1fr); }
+			.app-grid li, .skill-grid li { padding: 0.25em 0.5em; border: 1px solid #eaeaea; }
+			@media (prefers-color-scheme: dark) {
+				body { background-color: black; color: #B3B3B3; }
+				a, h2, strong { color: #00A5B8; }
+				.employ, .educate, .skills { border-color: #00A5B8; }
+			}
+			@media (min-width: 576px) {
+				.app-grid { grid-template-columns: repeat(3, 1fr); }
+				.skill-grid { grid-template-columns: repeat(4, 1fr); }
+			}
+			@media (min-width: 768px) {
+				.app-grid { grid-template-columns: repeat(5, 1fr); }
+				.skill-grid { grid-template-columns: repeat(5, 1fr); }
+				.contact-list { list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0; }
+			}		
+			@media (min-width: 992px) {
+				.app-grid { grid-template-columns: repeat(6, 1fr); }
+				.skill-grid { grid-template-columns: repeat(7, 1fr); }
+			}		
+			@media print {
+				a { text-decoration: none; }
+				header, main, footer { max-width: unset; }
+				ul li, .educate { break-inside: avoid; page-break-inside: avoid; }
+				body { padding: 0; font-family: sans-serif; }
+				.contact-list { list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0; }
+			}
+		</style>
 	</head>
-	<style type="text/css">
-		body { padding: 0.75rem 1.5rem; font: normal 500 0.85em/1.25em monospace, sans-serif; background: white; color: #404040; }
-		.text-center { text-align: center; } 
-		a, h2, strong { color: #00606B; }
-		h1, h2 { margin: 0.25rem 0 0.75rem; } 
-		h4, p { margin: 0.75rem 0; }
-		.employ, .educate, .skills { margin: 0.5rem 0 0; padding: 0.25rem 0; border-top: 2px solid #00606B; }
-		header, main, footer { max-width: 1000px; margin: 0 auto; }
-		.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
-		@media (prefers-color-scheme: dark) {
-			body { background-color: black; color: #B3B3B3; }
-			a, h2, strong { color: #00A5B8; }
-			.employ, .educate, .skills { border-color: #00A5B8; }
-		}
-		@media print {
-			a { text-decoration: none; }
-			header, main, footer { max-width: unset; }
-			ul li, .educate { break-inside: avoid; page-break-inside: avoid; }
-			body { padding: 0; font-family: sans-serif; }
-		}
-</style>
 <body>
 	<header>
 		<h1 class="text-center">Regan L. Bourland</h1>
-		<p class="text-center"><a href="mailto:regan.bourland@gmail.com">regan.bourland@gmail.com</a> | he/him/his</p>
-		<p style="text-align: justify">I have over twenty years of professional experience in design, technical architecture, and web development. I consider myself a user interface developer, currently digging deep into the user experience and accessibility. I&rsquo;m currently focusing heavily on modularization of designs and streamlining development solutions. I also have a Bachelor of Arts in Visual Communications and many, many hours of continuing education.</p>
-		<p>Forever a student, I&rsquo;m always interested in new ideas, processes, and possibilities.</p>
-		<p class="text-center"><small>Extensive work and education history: <a href="http://www.linkedin.com/in/rbld" target="_blank">http://www.linkedin.com/in/rbld</a></small></p>
+		<p class="text-center"><em>he/him/his</em></p>
+		<p style="text-align: justify">I have over twenty years of professional experience in design, technical architecture, and web development. I&rsquo;m a full-stack developer with a passion for gorgeous user interfaces, amazing user experiences and flawless accessibility. I love to focus on modularization and efficiency of both design and technical solution. I also have a BA in Visual Communications and many, many hours of continuing education.</p>
+		<p style="text-align: justify">My family and I intend to move to Denver in 2026. Once we move, I can no longer work at ProAthlete for legal reasons. Therefore, I&rsquo;m looking for a position that is: fully-remote or local to Denver, full-time employment, and starts as soon as possible.</p>
+		<ul class="contact-list" aria-label="Contact/References">
+			<li><a href="mailto:regan.bourland@gmail.com" target="_blank">regan.bourland@gmail.com</a></li>
+			<li><a href="https://www.linkedin.com/in/rbld" target="_blank">https://www.linkedin.com/in/rbld</a></li>
+			<li><a href="https://github.com/14rego" target="_blank">https://github.com/14rego</a></li>
+		</ul>
 	</header>
 	<main>
 		<section class="skills">
 			<h2>Technical Skills</h2>
 			<ul>
-				<li><strong>Professional Experience With:</strong><br/>.NET MVC/Razor, Java, PHP, Python, Django, Vue, VBscript, AngularJS, HTL/Sightly, Maven, SQL, NPM, Node, Apache, Amazon Web Services, Javascript ES5/6, jQuery, HTML5, CSS3, XML, Gulp, Git, SVN, and&nbsp;TFS</li>
-				<li><strong>Educational / Hobby Use:</strong><br/>React, Angular, JSP, MongoDB, Express, Typescript, Flow, Ruby, Babel, Actionscript</li>
-				<li><strong>Proficient (Mac or PC) Applications:</strong><br/>Visual Studio Pro/Code, IntelliJ, Eclipse, Sketch, Adobe XD, Figma, Dreamweaver, Photoshop, Illustrator, InDesign, Google SketchUp, Microsoft Office,&nbsp;etc.</li>
-			<ul>
+				<li>
+				<strong>Technological Experience:</strong>
+				<ul class="skill-grid" aria-label="Technology Experience">
+					<li>.NET MVC</li>
+					<li>Java</li>
+					<li>OOP PHP</li>
+					<li>Python</li>
+					<li>Django</li>
+					<li>Ruby</li>
+
+					<li>Vue</li>
+					<li>React</li>
+					<li>Angular</li>
+					<li>Alpine</li>
+
+					<li>HTL/Sightly</li>
+					<li>JSP</li>
+					<li>Typescript</li>
+					<li>XML</li>
+
+					<li>SQL</li>
+					<li>MongoDB</li>
+
+					<li>Maven</li>
+					<li>Express</li>
+
+					<li>Node</li>
+					<li>Apache</li>
+					<li>AWS</li>
+
+					<li>NPM</li>
+					<li>Flow</li>
+					<li>Babel</li>
+					<li>Webpack</li>
+					<li>Gulp</li>
+
+					<li>JS ES5/6</li>
+					<li>jQuery</li>
+					<li>Actionscript</li>
+					
+					<li>Material</li>
+					<li>Tailwind</li>
+					<li>Bootstrap</li>
+
+					<li>Git</li>
+					<li>SVN</li>
+					<li>TFS</li>
+				</ul>
+				</li>
+				<li>
+					<strong>Proficient (Mac or PC) Applications:</strong>
+					<ul class="app-grid" aria-label="Applications Proficiency">
+						<li>Visual Studio</li>
+						<li>IntelliJ</li>
+						<li>Eclipse</li>
+						<li>Sketch</li>
+						<li>XD</li>
+						<li>Figma</li>
+						<li>Dreamweaver</li>
+						<li>Photoshop</li>
+						<li>Illustrator</li>
+						<li>InDesign</li>
+						<li>SketchUp</li>
+						<li>MS Office</li>
+					</ul>
+				</li>
+			</ul>
 		</section>
 		<section class="employ">
 			<h2>Relevant Professional Experience</h2>
@@ -51,7 +136,7 @@
 				<li>
 					<h3>(<em>2021&thinsp;&mdash;&thinsp;Current</em>) Web Developer; ProAthlete Inc.; Kansas City, MO</h3>
 					<p>Front-end developer on a smaller team. Plan accessibility, user experience, A/B testing, design integration, and development of all e-commerce websites and several internal business solutions.</p>
-					<p><small><strong>Common Stacks:</strong> .NET Core MVC, Vue, ES6, jQuery</small></p>
+					<p><small><strong>Common Stacks:</strong> .NET Core MVC, Vue, Javascript ES6, jQuery</small></p>
 				</li>
 				<li>
 					<h3>(<em>2019&thinsp;&mdash;&thinsp;2021</em>) Senior Developer; Diamond Merckens Hogan; Kansas City, MO</h3>
@@ -59,25 +144,25 @@
 					<p>Lead AEM Developer (contract); created and managed any and all AEM projects.</p>
 					<p>Senior Developer (full-time); same as above, but with all projects - whether those were AEM, Wagtail, Wordpress, or otherwise.</p>
 					<p><small>
-						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br/>
-						<strong>Previous title at DMH:</strong> Lead AEM Developer<br/>
-						<strong>Common Stacks:</strong> Java, ES6, HTL/Sightly, jQuery, python, Django, PHP
+						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br>
+						<strong>Previous title at DMH:</strong> Lead AEM Developer<br>
+						<strong>Common Stacks:</strong> Java, ES6, HTL/Sightly, Javascript ES6, jQuery, python, Django, PHP
 					</small></p>
 				</li>
 				<li>
 					<h3>(<em>2018&thinsp;&mdash;&thinsp;2019</em>) User Experience Architect; Artisan Technology Group; Kansas City, MO</h3>
 					<p>As the face of user experience at Artisan, I worked closely with our partners and clients to improve messaging and strategic tactics throughout their brands and systems. Beginning with market research and in-depth business discovery I organized, planned, designed, prototyped, and developed custom interfaces and marketing materials for a wide variety of technology applications.</p>
 					<p><small>
-						<strong>Accreditation:</strong> Amazon Web Services Business Professional<br/>
-						<strong>Common Stacks:</strong> AWS, .NET, Angular, React
+						<strong>Accreditation:</strong> Amazon Web Services Business Professional<br>
+						<strong>Common Stacks:</strong> AWS, .NET, Node, Angular, React
 					</small></p>
 				</li>
 				<li>
 					<h3>(<em>2014&thinsp;&mdash;&thinsp;2018</em>) Principal Developer; Intouch Solutions, Inc.; Overland&nbsp;Park,&nbsp;KS</h3>
 					<p>I worked closely on a daily basis with architects, directors and the VP of Development Services on complex and/or high-profile projects. I'm an Adobe Experience Manager Certified Expert developer, and often acted as liaison with technology vendors and client IT groups. While my primary focus was always implementation and development, I worked with architects on documenting standards and mentoring team developers on specific technologies to ensure long-term growth of the business.</p>
 					<p><small>
-						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br/>
-						<strong>Previous titles at Intouch:</strong> Developer (contract), Senior Developer, Development Team Lead, AEM Development Lead<br/>
+						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br>
+						<strong>Previous titles at Intouch:</strong> Developer (contract), Senior Developer, Development Team Lead, AEM Development Lead<br>
 						<strong>Common Stacks:</strong> .NET MVC, Java, Angular, ES5, HTL/Sightly, jQuery
 					</small></p>
 				</li>
@@ -127,8 +212,8 @@
 	</main>
 	<footer>
 		<p class="text-center"><small>
-			<em>Professional references available upon request.</em><br/>
-			Updated Sept. 2025
+			<em>Professional references available upon request.</em><br>
+			Updated Oct. 2025
 		</small></p>
 	</footer>
 </body>
