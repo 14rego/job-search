@@ -5,22 +5,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Regan Bourland | regan.bourland@gmail.com</title>
 		<link rel="stylesheet" href="css/style.css">
-		<meta name="description" content="Forever a student, I'm always interested in new ideas, processes, and possibilities.">
+		<meta name="description" content="Seeking a full-time Web Development position—remote or local to Denver—ready for an immediate start.">
 		<style>
-			body { padding: 0.75rem 1.5rem; font: normal 500 0.85em/1.25em monospace, sans-serif; background: white; color: #404040; }
+			body { padding: 0.75rem 1.5rem; font: normal 500 0.85em/1.25em sans-serif; background: white; color: #404040; }
 			.text-center { text-align: center; } 
 			a, h2, strong { color: #00606B; }
 			h1, h2 { margin: 0.25rem 0 0.75rem; } 
 			h4, p { margin: 0.75rem 0; }
+			li { margin: 0.25rem 0; }
 			.employ, .educate, .skills { margin: 0.5rem 0 0; padding: 0.25rem 0; border-top: 2px solid #00606B; }
 			header, main, footer { max-width: 1000px; margin: 0 auto; }
 			.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 			.app-grid, .skill-grid { display: grid; grid-column-gap: 0.125em; grid-row-gap: 0.125em; list-style: none; margin: 0.5rem 0; padding: 0; }
 			.app-grid { grid-template-columns: repeat(2, 1fr); }
 			.skill-grid { grid-template-columns: repeat(2, 1fr); }
-			.app-grid li, .skill-grid li { padding: 0.25em 0.5em; border: 1px solid #eaeaea; }
+			.app-grid li, .skill-grid li { margin: 0; padding: 0.25em 0.125em 0.25em 0.33em; border: 1px solid #eaeaea; }
+            .tiny { position: relative; display: inline-block; top: -0.15em; font-family: monospace; font-size: 0.65em; text-transform: uppercase; color: #666666; }
 			@media (prefers-color-scheme: dark) {
 				body { background-color: black; color: #B3B3B3; }
+                .tiny { color: #B3B3B3; }
 				a, h2, strong { color: #00A5B8; }
 				.employ, .educate, .skills { border-color: #00A5B8; }
 				.app-grid li, .skill-grid li { border-color: #222222; }
@@ -28,6 +31,7 @@
 			@media (min-width: 576px) {
 				.app-grid { grid-template-columns: repeat(3, 1fr); }
 				.skill-grid { grid-template-columns: repeat(4, 1fr); }
+                .flex-cols { display: flex; justify-content: space-between; align-items: center; }
 			}
 			@media (min-width: 768px) {
 				.app-grid { grid-template-columns: repeat(5, 1fr); }
@@ -42,185 +46,153 @@
 				a { text-decoration: none; }
 				header, main, footer { max-width: unset; }
 				ul li, .educate { break-inside: avoid; page-break-inside: avoid; }
-				body { padding: 0; font-family: sans-serif; }
+				body { padding: 0; }
 				.contact-list { list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0; }
+                .no-print { display: none; }
 			}
 		</style>
 	</head>
 <body>
 	<header>
 		<h1 class="text-center">Regan Bourland</h1>
-		<p class="text-center"><em>he/him/his</em></p>
-		<p style="text-align: justify">I have over twenty years of professional experience in design, technical architecture, and web development. I&rsquo;m a full-stack developer with a passion for gorgeous user interfaces, amazing user experiences and flawless accessibility. I love to focus on documentation, modularization and efficiency of both design and technical solution. I also have a BA in Visual Communications and many, many hours of continuing education.</p>
-		<p style="text-align: justify">My family is moving to Denver. I can no longer work at ProAthlete for legal reasons from Colorado. Therefore, I&rsquo;m looking for a position that: is remote or local to Denver, offers full-time employment, and starts as soon as&nbsp;possible.</p>
-		<ul class="contact-list" aria-label="Contact/References">
-			<li><a href="mailto:regan.bourland@gmail.com" target="_blank">regan.bourland@gmail.com</a></li>
-			<li><a href="https://linkedin.com/in/rbld" target="_blank">linkedin.com/in/rbld</a></li>
-			<li><a href="https://profile.indeed.com/p/reganb-45cn5z9" target="_blank">profile.indeed.com/p/reganb-45cn5z9</a></li>
-			<li><a href="https://github.com/14rego" target="_blank">github.com/14rego</a></li>
-		</ul>
+		<p class="text-center"><em>he/him/his<br>Seeking a full-time Web Development position—remote or local to Denver—ready for an immediate start.</em></p>
+        <p><b>Wisdom:</b> Over 20 years of professional experience in development, design, research, architecture, and&nbsp;leadership.</p>
+        <p><b>Depth:</b> I build compliant, inclusive, and modern web applications, but I also think beyond just writing code. I understand the business and user goals driving development. My various perspectives are great for bridging communication gaps between roles and/or teams; technical and non-technical.</p>
+        <p><b>Diversity:</b> My expertise spans modern stacks, complemented by a strong background in enterprise legacy systems. I'm great at pattern recognition, allowing me to step into almost any stack or environment and succeed. This allows me to hit the ground running.</p>
+        <p><b>Collaboration:</b> I help build - not just websites but - systems with efficiency, maintainability, and scalability in mind. I bring technical depth, architectural foresight, and team leadership skills.</p>
+		<p><b>Off-screen:</b> I travel, challenge myself with puzzles, creative tinkering, and adventuring outdoors with family and friends.</p>
 	</header>
 	<main>
 		<section class="skills">
-			<h2>Technical Skills</h2>
+			<h2>Technical Background</h2>
 			<ul>
 				<li>
-				<strong>Technological Experience:</strong>
+				<strong>Professional Skills:</strong>
 				<ul class="skill-grid" aria-label="Technology Experience">
-					<li>.NET MVC</li>
-					<li>Java</li>
-					<li>PHP</li>
-					<li>Python</li>
+					<li><span class="tiny">[FE]</span> Vue</li>
+					<li><span class="tiny">[FE]</span> React</li>
+					<li><span class="tiny">[FE]</span> Angular</li>
+					<li><span class="tiny">[FE]</span> Alpine</li>
+					<li><span class="tiny">[FE]</span> HTL / Sightly</li>
 
-					<li>Django</li>
-					<li>Vue</li>
-					<li>React</li>
-					<li>Angular</li>
-					<li>Alpine</li>
+					<li><span class="tiny">[BE]</span> Django</li>
+					<li><span class="tiny">[BE]</span> .NET MVC</li>
+					<li><span class="tiny">[BE]</span> Java</li>
+					<li><span class="tiny">[BE]</span> PHP</li>
+					<li><span class="tiny">[BE]</span> Python</li>
 
-					<li>AEM</li>
-					<li>Wordpress</li>
-					<li>Wagtail</li>
+					<li><span class="tiny">[CMS]</span> Wagtail</li>
+					<li><span class="tiny">[CMS]</span> AEM</li>
+					<li><span class="tiny">[CMS]</span> Wordpress</li>
 
-					<li>HTL/Sightly</li>
-					<li>Typescript</li>
-					<li>XML</li>
+					<li><span class="tiny">[OPS]</span> Typescript</li>
+					<li><span class="tiny">[OPS]</span> Maven</li>
+					<li><span class="tiny">[OPS]</span> Express</li>
 
-					<li>SQL</li>
-					<li>MongoDB</li>
+					<li><span class="tiny">[OPS]</span> Node</li>
+					<li><span class="tiny">[OPS]</span> Apache</li>
+					<li><span class="tiny">[OPS]</span> AWS</li>
 
-					<li>Maven</li>
-					<li>Express</li>
+					<li><span class="tiny">[OPS]</span> Vite</li>
+					<li><span class="tiny">[OPS]</span> Webpack</li>
+					<li><span class="tiny">[OPS]</span> Yarn</li>
+					<li><span class="tiny">[OPS]</span> NPM</li>
+					<li><span class="tiny">[OPS]</span> Gulp</li>
+					<li><span class="tiny">[OPS]</span> Git</li>
 
-					<li>Node</li>
-					<li>Apache</li>
-					<li>AWS</li>
+					<li><span class="tiny">[DB]</span> SQL / Postgres</li>
+					<li><span class="tiny">[DB]</span> MongoDB</li>
 
-					<li>Vite</li>
-					<li>Webpack</li>
-					<li>Yarn</li>
-					<li>NPM</li>
-					<li>Gulp</li>
-
-					<li>NUnit</li>
-					<li>Selenium</li>
-
-					<li>JS ES5/ES6</li>
-					<li>jQuery</li>
+					<li><span class="tiny">[TEST]</span> NUnit</li>
+					<li><span class="tiny">[TEST]</span> Selenium</li>
 					
-					<li>Material</li>
-					<li>Bootstrap</li>
-					<li>Tailwind</li>
-					<li>SASS/Less</li>
+					<li><span class="tiny">[UI]</span> Material</li>
+					<li><span class="tiny">[UI]</span> Bootstrap</li>
+					<li><span class="tiny">[UI]</span> Tailwind</li>
+					<li><span class="tiny">[UI]</span> SASS/Less</li>
 
-					<li>GitFlow</li>
-					<li>TFS</li>
-					<li>Jira</li>
+					<li><span class="tiny">[UI]</span> Javascript</li>
+					<li><span class="tiny">[UI]</span> jQuery</li>
 				</ul>
 				</li>
 				<li>
-					<strong>Proficient (Mac or PC) Applications:</strong>
+					<strong>Proficient Applications:</strong>
 					<ul class="app-grid" aria-label="Applications Proficiency">
-						<li>Visual Studio</li>
-						<li>IntelliJ</li>
-						<li>Eclipse</li>
-						<li>Sketch</li>
-						<li>XD</li>
-						<li>Figma</li>
-						<li>Dreamweaver</li>
-						<li>Photoshop</li>
-						<li>Illustrator</li>
-						<li>InDesign</li>
-						<li>SketchUp</li>
-						<li>MS Office</li>
+						<li><span class="tiny">[IDE]</span> Visual Studio</li>
+						<li><span class="tiny">[IDE]</span> IntelliJ</li>
+						<li><span class="tiny">[IDE]</span> Eclipse</li>
+						<li><span class="tiny">[IDE]</span> Dreamweaver</li>
+						<li><span class="tiny">[Design]</span> Sketch</li>
+						<li><span class="tiny">[Design]</span> XD</li>
+						<li><span class="tiny">[Design]</span> Figma</li>
+						<li><span class="tiny">[Design]</span> Photoshop</li>
+						<li><span class="tiny">[Design]</span> Illustrator</li>
+						<li><span class="tiny">[Design]</span> InDesign</li>
+						<li><span class="tiny">[Design]</span> SketchUp</li>
+						<li><span class="tiny">[Business]</span> MS Office</li>
 					</ul>
 				</li>
 			</ul>
 		</section>
 		<section class="employ">
-			<h2>Relevant Professional Experience</h2>
+			<h2>Recent Professional Experience</h2>
 			<ul>
 				<li>
-					<h3>(<em>2021&thinsp;&mdash;&thinsp;Current</em>) Web Developer; ProAthlete Inc.; Kansas City, MO</h3>
-					<p>Front-end developer on a smaller team. Plan accessibility, user experience, A/B testing, design integration, and development of all e-commerce websites and several internal business solutions.</p>
-					<p><small><strong>Common Stacks:</strong> .NET Core MVC, Vue/Vite, Javascript ES6, jQuery</small></p>
+					<h3 class="flex-cols"><span>Web Developer;</span> <span>ProAthlete Inc. (<em>2021-Current</em>)</span></h3>
+					<p>Plan accessibility, user experience, A/B and UI testing, design integration, and development of all legacy B2C e-commerce sites and several modern internal business applications.</p>
+					<p><small><strong>Stacks:</strong> .NET Core MVC, Vue/Vite, AlpineJS, ES6, Tailwind, Bootstrap, jQuery, Selenium, Clarity, GTM, HubSpot, SQL, Figma</small></p>
 				</li>
 				<li>
-					<h3>(<em>2019&thinsp;&mdash;&thinsp;2021</em>) Senior Developer; Diamond Merckens Hogan; Kansas City, MO</h3>
-					<p>Front- and back-end web development. Met with clients, creative teams, and dev/IT team to make sure static, CMS, and e-commerce sites were in fully functional, user friendly, and accessible.</p>
-					<p>Lead AEM Developer (contract); created and managed any and all AEM projects.</p>
-					<p>Senior Developer (full-time); same as above, but with all projects - whether those were AEM, Wagtail, Wordpress, or otherwise.</p>
-					<p><small>
-						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br>
-						<strong>Previous title at DMH:</strong> Lead AEM Developer<br>
-						<strong>Common Stacks:</strong> Java, ES6, HTL/Sightly, jQuery, python, Django, PHP
-					</small></p>
+					<h3 class="flex-cols"><span>Senior Developer;</span> <span>Diamond Merckens Hogan (<em>2019-2021</em>)</span></h3>
+					<p>Develop and ensure static, CMS, and e-commerce sites were in fully functional, user friendly, and accessible.</p>
+					<p>Lead AEM Developer (contract); created and managed any and all AEM projects</p>
+					<p>Senior Developer (full-time); same as above, but with all projects - whether AEM, Wagtail, Wordpress, or otherwise</p>
+					<p><small><strong>Stacks:</strong> Java, ES6, Maven, HTL/Sightly, jQuery, python, Django, PHP</small></p>
 				</li>
 				<li>
-					<h3>(<em>2018&thinsp;&mdash;&thinsp;2019</em>) User Experience Architect; Artisan Technology Group; Kansas City, MO</h3>
-					<p>As the face of user experience at Artisan, I worked closely with our partners and clients to improve messaging and strategic tactics throughout their brands and systems. Beginning with market research and in-depth business discovery I organized, planned, designed, prototyped, and developed custom interfaces and marketing materials for a wide variety of technology applications.</p>
+					<h3 class="flex-cols"><span>User Experience Architect;</span> <span>Artisan Technology Group (<em>2018-2019</em>)</span></h3>
+					<p>Worked closely with partners and clients to improve messaging and strategies throughout their brands and systems. Beginning with market research and in-depth business discovery, I organized, planned, designed, prototyped and developed custom interfaces and marketing materials.</p>
 					<p><small>
 						<strong>Accreditation:</strong> Amazon Web Services Business Professional<br>
-						<strong>Common Stacks:</strong> AWS, .NET, Node, Angular, React
+						<strong>Stacks:</strong> AWS, .NET, Node, Angular, React, Adobe XD
 					</small></p>
 				</li>
 				<li>
-					<h3>(<em>2014&thinsp;&mdash;&thinsp;2018</em>) Principal Developer; Intouch Solutions, Inc.; Overland&nbsp;Park,&nbsp;KS</h3>
-					<p>I worked closely on a daily basis with architects, directors and the VP of Development Services on complex and/or high-profile projects. I'm an Adobe Experience Manager Certified Expert developer, and often acted as liaison with technology vendors and client IT groups. While my primary focus was always implementation and development, I worked with architects on documenting standards and mentoring team developers on specific technologies to ensure long-term growth of the business.</p>
+					<h3 class="flex-cols"><span>Principal Developer;</span> <span>Intouch Solutions, Inc. (<em>2014-2018</em>)</span></h3>
+					<p>I worked closely with developers, architects and C-suite on complex and high-profile projects. I often acted as liaison with technology vendors and client IT groups. While my primary focus was always implementation and development, my team created SOPs, documented standards, and I mentored team developers. We created an enterprise-scale component library and style guide to be reused across brand properties.</p>
 					<p><small>
-						<strong>Certification:</strong> Adobe Experience Manager 6.0 Expert Developer<br>
-						<strong>Previous titles at Intouch:</strong> Developer (contract), Senior Developer, Development Team Lead, AEM Development Lead<br>
-						<strong>Common Stacks:</strong> .NET MVC, Java, Angular, ES5, HTL/Sightly, jQuery
+						<strong>Accreditation:</strong> Adobe Experience Manager 6.0 Expert Developer<br>
+						<strong>Stacks:</strong> .NET MVC, Java, Maven, ES5, HTL/Sightly, jQuery
 					</small></p>
 				</li>
 				<li>
-					<h3>(<em>2010&thinsp;&mdash;&thinsp;2014</em>) Web Development; Marketing; Softek Solutions, Inc.; Prairie&nbsp;Village,&nbsp;KS</h3>
-					<p>Design and development of the websites, social networking and general online presence of SSI with the occasional print design when needed.</p>
-					<p><small><strong>Common Stacks:</strong> PHP, .NET MVC, jQuery</small></p>
-				</li>
-				<li>
-					<h3>(<em>2009&thinsp;&mdash;&thinsp;2010</em>) Web Development; Creative Marketing; Liquid Soap Products; Lee&rsquo;s&nbsp;Summit,&nbsp;MO</h3>
-					<p>Design and development of the websites of LSP and its subsidiaries; Ultra International and Custom Solutions, Inc. with the occasional print design when needed.</p>
-					<p><small><strong>Common Stacks:</strong> ASP, PHP, jQuery</small></p>
-				</li>
-				<li class="sr-only">
-					<h3>(<em>2004&thinsp;&mdash;&thinsp;2011</em>) Designer and Developer; Boulder Design &amp; Graphics; Independence,&nbsp;MO</h3>
-					<p>Design and develop projects as needed by clients from around the world.</p>
-				</li>
-				<li class="sr-only">
-					<h3>(<em>2008&thinsp;&mdash;&thinsp;2009</em>) Graphic Artist; Creative Services; Fort Dodge Animal Health; Overland&nbsp;Park,&nbsp;KS</h3>
-					<p>Designed marketing and sales support materials for Fort Dodge Animal Health and our parent company, Wyeth Pharmaceuticals - almost solely print production.</p>
-				</li>
-				<li class="sr-only">
-					<h3>(<em>2005&thinsp;&mdash;&thinsp;2008</em>) Graphic Designer; Ad Services; Kansas City Star and KansasCity.com; Kansas&nbsp;City,&nbsp;MO</h3>
-					<p>Began designing display ads for placement in the Kansas City Star. Then designed and developed banner ads, forms, widgets, websites, e-mail campaigns, etc. for KansasCity.com and interoffice McClatchy Interactive use.</p>
-				</li>
-				<li class="sr-only">
-					<h3>(<em>2005</em>) Digital Retouch Specialist; H&amp;H Color Lab; Raytown,&nbsp;MO</h3>
-					<p>Extensive training and labor in Adobe Photoshop retouching professional photographs.</p>
-				</li>
-				<li class="sr-only">
-					<h3>(<em>2003&thinsp;&mdash;&thinsp;2005</em>) Graphic Designer; Graceland University Media Center; Graceland University; Lamoni,&nbsp;IA</h3>
-					<p>In charge of layout and photo placement (in Quark) of the yearbook. Part- and full-time internship atmosphere learning about the press and design techniques. Continued designing several print pieces on contract leading me to launch my own small business.</p>
+					<h3 class="flex-cols"><span>Web Development;</span> <span>Marketing; Softek Solutions, Inc. (<em>2010-2014</em>)</span></h3>
+					<p>Design and development of the websites, social networking and general online presence of the small company.</p>
+					<p><small><strong>Stacks:</strong> PHP, Postgres, jQuery</small></p>
 				</li>
 			</ul>
 		</section>
-		<section class="educate sr-only">
+		<section class="educate">
 			<h2>Education</h2>
-			<h3>(<em>2001&thinsp;&mdash;&thinsp;2005</em>) Graceland University; Lamoni, IA</h3>
-			<ul>
-				<li><strong>Degree:</strong> Bachelor of Arts</li>
+			<h3 class="flex-cols"><span>Graceland University;</span> <span>Lamoni, IA (<em>2001-2005</em>)</span></h3>
+			<ul class="flex-cols">
+				<li><strong>Degree:</strong> Bachelors</li>
 				<li><strong>Major:</strong> Visual Communications</li>
 				<li><strong>Minor:</strong> Psychology</li>
 			</ul>
-			<h3>(<em>2007&thinsp;&mdash;&thinsp;2009</em>) Johnson County Community College Center for Business and Technology; Overland Park, KS</h3>
-			<p>Various Continuing Education Certificates</p>
 		</section>
 	</main>
 	<footer>
+		<ul class="contact-list" aria-label="Contact/References">
+			<li><a href="mailto:regan.bourland@gmail.com" target="_blank">regan.bourland@gmail.com</a></li>
+			<li><a href="https://linkedin.com/in/rbld" target="_blank">linkedin.com/in/rbld</a></li>
+			<li><a href="https://profile.indeed.com/p/reganb-45cn5z9" target="_blank">profile.indeed.com/p/reganb-45cn5z9</a></li>
+			<li><a href="https://github.com/14rego" target="_blank">github.com/14rego</a></li>
+			<li class="no-print"><a href="https://rbourland.us-3.evennode.com" target="_blank">more about me</a></li>
+		</ul>
 		<p class="text-center"><small>
-			<em>Professional references available upon request.</em><br>
-			Updated Nov. 2025
+			<em>Professional references and more extensive professional history available upon request.</em><br>
+			Denver, Colorado 80210; Updated Nov. 2025
 		</small></p>
 	</footer>
 </body>
