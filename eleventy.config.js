@@ -7,7 +7,7 @@ export default function (eleventyConfig) {
   //eleventyConfig.setIncludesDirectory("_includes"); // default
   //eleventyConfig.setDataDirectory("_data"); // default
   eleventyConfig.setLayoutsDirectory("_layouts");
-  eleventyConfig.setOutputDirectory("dist");
+  eleventyConfig.setOutputDirectory("docs");
 
   eleventyConfig.addPassthroughCopy("src/assets/style");
   eleventyConfig.addPassthroughCopy("src/assets/image");
