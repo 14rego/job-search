@@ -192,4 +192,8 @@ footer {
     .no-print {
         display: none;
     }
+
+    .skill-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
