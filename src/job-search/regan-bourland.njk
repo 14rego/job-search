@@ -1,0 +1,87 @@
+---
+layout: standard.njk
+---
+<header>
+    <h1 class="text-center">Regan Bourland</h1>
+    <p class="text-center"><em>he/him/his<br>Seeking a full-time Web Development position—remote or local to Denver—ready for an immediate start.</em></p>
+    <p><b>Wisdom:</b> Over 20 years of professional experience in development, design, research, architecture, and&nbsp;leadership.</p>
+    <p><b>Depth:</b> I build compliant, inclusive, and modern web applications, but I also think beyond just writing code. I understand the business and user goals driving development. My various perspectives are great for bridging communication gaps between roles and/or teams; technical and non-technical.</p>
+    <p><b>Diversity:</b> My expertise spans modern stacks, complemented by a strong background in enterprise legacy systems. I'm great at pattern recognition, allowing me to step into almost any stack or environment and succeed. This allows me to hit the ground running.</p>
+    <p><b>Collaboration:</b> I help build - not just websites but - systems with efficiency, maintainability, and scalability in mind. I bring technical depth, architectural foresight, and team leadership skills.</p>
+    <p><b>Off-screen:</b> I travel, challenge myself with puzzles, creative tinkering, and adventuring outdoors with family and friends.</p>
+</header>
+<main>
+    <section class="employ">
+        <h2>Professional Experience</h2>
+        <ul>
+            {%- for job in positions | dateAsc %}
+                {%- if job.relevant %}
+                <li>
+                    <h3 class="flex-cols">
+                        <span>{{ job.title }};</span> 
+                        <span>{{ job.company }} 
+                        {%- if job.end == 'Current' %}
+                            <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
+                        {%- else %}
+                            <span>(<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>)</span>
+                        {%- endif %}
+                        </span>
+                    </h3>
+                    <ul>
+                        {%- for b in job.bullets %}<li>{{ b }}</li>{%- endfor %}
+                    </ul>
+                </li>
+                {%- else %}
+                <li>
+                    <h3 class="flex-cols">
+                        <span>{{ job.title }};</span> 
+                        <span>{{ job.company }} 
+                        {%- if job.end == 'Current' %}
+                            <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
+                        {%- else %}
+                            <span>(<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>)</span>
+                        {%- endif %}
+                        </span>
+                    </h3>
+                </li>
+                {%- endif %}
+            {%- endfor %}
+        </ul>
+    </section>
+    <section class="skills">
+        <h2>Technical Background</h2>
+        <ul class="skill-grid" aria-label="Technology Experience">
+            <li>
+                <span class="tiny">[CATEGORY]</span> 
+                <span>Skill</span>
+                <span class="years">Years</span>
+            </li>
+            {%- for skill in skills | azTitle %}
+                {% include "skill.njk" %}
+            {%- endfor %}
+        </ul>
+    </section>
+    <section class="educate">
+        <h2>Education</h2>
+        {%- for school in schools | dateDesc %}
+            <h3 class="flex-cols">
+                <span>{{ school.name }};</span> 
+                <span>
+                    <span>{{ school.city }}, {{ school.state }}</span> 
+                    {%- if school.end == 'Current' %}
+                        <span>(<em>{{ school.start | yyyy }}-{{ school.end }}</em>)</span>
+                    {%- elif school.end %}
+                        <span>(<em>{{ school.start | yyyy }}-{{ school.end | yyyy }}</em>)</span>
+                    {%- else %}
+                        <span>(<em>{{ school.start | yyyy }}</em>)</span>
+                    {%- endif %}
+                </span>
+            </h3>
+            <ul class="flex-cols">
+                {%- for hl in school.highlights %}
+                    <li><strong>{{ hl.title }}:</strong> {{ hl.text }}</li>
+                {%- endfor %}
+            </ul>
+        {%- endfor %}
+    </section>
+</main>

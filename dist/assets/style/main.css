@@ -1,0 +1,195 @@
+body {
+    padding: 0.75rem 1.5rem;
+    background: white;
+    font: normal 500 0.85em/1.25em sans-serif;
+    color: #404040;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a,
+h2,
+strong {
+    color: #00606B;
+}
+
+h1,
+h2 {
+    margin: 0.25rem 0 0.75rem;
+}
+
+h3 {
+    margin: 0.75rem 0 0.5rem;
+}
+
+h4,
+p {
+    margin: 0.75rem 0;
+}
+
+li {
+    margin: 0.25rem 0;
+}
+
+.employ,
+.educate,
+.skills {
+    margin: 0.5rem 0 0;
+    border-top: 2px solid #00606B;
+    padding: 0.25rem 0;
+}
+
+header,
+main,
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sr-only {
+    position: absolute;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    padding: 0;
+}
+
+.skill-grid {
+    display: grid;
+    grid-column-gap: 0.125em;
+    grid-row-gap: 0.125em;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+.skill-grid li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5em;
+    margin: 0;
+    padding: 0.25em 0.33em;
+    border: 1px solid #eaeaea;
+}
+
+.tiny {
+    font-family: monospace;
+    font-size: 0.65em;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.years {
+    justify-self: flex-end;
+    margin-left: auto;
+    font-family: monospace;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #B3B3B3;
+    }
+
+    .tiny {
+        color: #B3B3B3;
+    }
+
+    a,
+    h2,
+    strong {
+        color: #00A5B8;
+    }
+
+    .employ,
+    .educate,
+    .skills {
+        border-color: #00A5B8;
+    }
+
+    .skill-grid li {
+        border-color: #222222;
+    }
+}
+
+@media (min-width: 576px) {
+    .skill-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .skill-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-cols {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .skill-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media print {
+    a {
+        text-decoration: none;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: unset;
+    }
+
+    ul li,
+    .educate {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .contact-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .no-print {
+        display: none;
+    }
+}

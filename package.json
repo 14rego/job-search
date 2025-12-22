@@ -1,0 +1,32 @@
+{
+  "name": "job-search",
+  "version": "1.1.0",
+  "description": "In the absolutely horrible event I need to be searching for a new job.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "serve": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14rego/job-search.git"
+  },
+  "keywords": [
+    "node",
+    "eleventy",
+    "cv",
+    "resume",
+    "regan",
+    "bourland"
+  ],
+  "author": "Regan Bourland",
+  "license": "ISC",
+  "homepage": "https://14rego.github.io/job-search/regan-bourland",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "inline-source": "^8.0.3",
+    "moment": "^2.30.1"
+  }
+}

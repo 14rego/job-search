@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Graceland University",
+        "city": "Lamoni",
+        "state": "IA",
+        "start": "08/01/2001",
+        "end": "05/31/2005",
+        "highlights": [
+            {
+                "title": "Degree",
+                "text": "Bachelor's"
+            },
+            {
+                "title": "Major",
+                "text": "Visual Comminications"
+            },
+            {
+                "title": "Minor",
+                "text": "Psychology"
+            }
+        ]
+    },
+    {
+        "name": "Adobe",
+        "city": "San Jose",
+        "state": "CA",
+        "start": "09/12/2016",
+        "end": "Current",
+        "highlights": [
+            {
+                "title": "Adobe Experience Manager",
+                "text": "6.x Expert Developer"
+            }
+        ]
+    },
+    {
+        "name": "Amazon Web Services",
+        "city": "Seattle",
+        "state": "WA",
+        "start": "09/01/2018",
+        "end": "03/31/2020",
+        "highlights": [
+            {
+                "title": "Accreditation",
+                "text": "Business Professional (2018-19)"
+            },
+            {
+                "title": "Accreditation",
+                "text": "Total Cost of Ownership and Cloud Economics (2019-20)"
+            }
+        ]
+    }
+]

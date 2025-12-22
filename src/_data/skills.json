@@ -1,0 +1,327 @@
+[
+    {
+        "category": "FWK",
+        "title": "Vue",
+        "years": 4,
+        "preference": 80
+    },
+    {
+        "category": "FWK",
+        "title": "AEM",
+        "years": 3,
+        "preference": 75
+    },
+    {
+        "category": "FWK",
+        "title": "Django",
+        "years": 2,
+        "preference": 70
+    },
+    {
+        "category": "FWK",
+        "title": "Wagtail",
+        "years": 2,
+        "preference": 65
+    },
+    {
+        "category": "FWK",
+        "title": "Angular",
+        "years": 3,
+        "preference": 60
+    },
+    {
+        "category": "FWK",
+        "title": "React",
+        "years": 2,
+        "preference": 55
+    },
+    {
+        "category": "FWK",
+        "title": "Alpine",
+        "years": 3,
+        "preference": 50
+    },
+    {
+        "category": "FWK",
+        "title": "Cake",
+        "years": 4,
+        "preference": 45
+    },
+    {
+        "category": "FWK",
+        "title": "Symphony",
+        "years": 2,
+        "preference": 40
+    },
+    {
+        "category": "FWK",
+        "title": "Drupal",
+        "years": 2,
+        "preference": 35
+    },
+    {
+        "category": "FWK",
+        "title": "Joomla",
+        "years": 2,
+        "preference": 30
+    },
+    {
+        "category": "FWK",
+        "title": "Wordpress",
+        "years": 4,
+        "preference": 25
+    },
+
+    {
+        "category": "FE",
+        "title": "HTL / Sightly",
+        "years": 3,
+        "preference": 80
+    },
+    {
+        "category": "FE",
+        "title": "TypeScript",
+        "years": 2,
+        "preference": 75
+    },
+    {
+        "category": "FE",
+        "title": "JSP",
+        "years": 3,
+        "preference": 70
+    },
+
+    {
+        "category": "UI",
+        "title": "Javascript ES6",
+        "years": 15,
+        "preference": 95
+    },
+    {
+        "category": "UI",
+        "title": "Tailwind",
+        "years": 4,
+        "preference": 90
+    },
+    {
+        "category": "UI",
+        "title": "SASS / Less",
+        "years": 12,
+        "preference": 85
+    },
+    {
+        "category": "UI",
+        "title": "GSAP",
+        "years": 11,
+        "preference": 80
+    },
+    {
+        "category": "UI",
+        "title": "Highcharts",
+        "years": 6,
+        "preference": 75
+    },
+    {
+        "category": "UI",
+        "title": "Bootstrap",
+        "years": 12,
+        "preference": 70
+    },
+    {
+        "category": "UI",
+        "title": "Material",
+        "years": 3,
+        "preference": 65
+    },
+    {
+        "category": "UI",
+        "title": "jQuery",
+        "years": 12,
+        "preference": 60
+    },
+    {
+        "category": "UI",
+        "title": "Actionscript",
+        "years": 8,
+        "preference": 55
+    },
+
+    {
+        "category": "BE",
+        "title": ".NET MVC",
+        "years": 16,
+        "preference": 80
+    },
+    {
+        "category": "BE",
+        "title": "PHP",
+        "years": 20,
+        "preference": 70
+    },
+    {
+        "category": "BE",
+        "title": "Python",
+        "years": 2,
+        "preference": 60
+    },
+    {
+        "category": "BE",
+        "title": "Java",
+        "years": 3,
+        "preference": 50
+    },
+
+    {
+        "category": "OPS",
+        "title": "Express",
+        "years": 6,
+        "preference": 85
+    },
+    {
+        "category": "OPS",
+        "title": "Apache",
+        "years": 15,
+        "preference": 80
+    },
+    {
+        "category": "OPS",
+        "title": "Maven",
+        "years": 2,
+        "preference": 75
+    },
+    {
+        "category": "OPS",
+        "title": "Gulp / Grunt",
+        "years": 10,
+        "preference": 70
+    },
+    {
+        "category": "OPS",
+        "title": "Vite",
+        "years": 3,
+        "preference": 65
+    },
+    {
+        "category": "OPS",
+        "title": "Node",
+        "years": 8,
+        "preference": 60
+    },
+    {
+        "category": "OPS",
+        "title": "NPM",
+        "years": 12,
+        "preference": 55
+    },
+    {
+        "category": "OPS",
+        "title": "AWS",
+        "years": 8,
+        "preference": 50
+    },
+    {
+        "category": "OPS",
+        "title": "Webpack",
+        "years": 3,
+        "preference": 45
+    },
+    {
+        "category": "OPS",
+        "title": "Yarn",
+        "years": 2,
+        "preference": 40
+    },
+    {
+        "category": "OPS",
+        "title": "GTM",
+        "years": 5,
+        "preference": 0
+    },
+    {
+        "category": "OPS",
+        "title": "Git",
+        "years": 16,
+        "preference": 35
+    },
+
+    {
+        "category": "DATA",
+        "title": "SQL / mySQL",
+        "years": 18,
+        "preference": 80
+    },
+    {
+        "category": "DATA",
+        "title": "PostgreSQL",
+        "years": 6,
+        "preference": 70
+    },
+    {
+        "category": "DATA",
+        "title": "Pinia",
+        "years": 4,
+        "preference": 60
+    },
+    {
+        "category": "DATA",
+        "title": "Redux",
+        "years": 2,
+        "preference": 50
+    },
+    {
+        "category": "DATA",
+        "title": "MongoDB",
+        "years": 1,
+        "preference": 40
+    },
+
+    {
+        "category": "TEST",
+        "title": "Selenium",
+        "years": 4,
+        "preference": 70
+    },
+    {
+        "category": "TEST",
+        "title": "NUnit",
+        "years": 4,
+        "preference": 40
+    },
+
+    {
+        "category": "DESIGN",
+        "title": "XD",
+        "years": 6,
+        "preference": 85
+    },
+    {
+        "category": "DESIGN",
+        "title": "Sketch",
+        "years": 10,
+        "preference": 80
+    },
+    {
+        "category": "DESIGN",
+        "title": "Figma",
+        "years": 4,
+        "preference": 75
+    },
+    {
+        "category": "DESIGN",
+        "title": "Photoshop",
+        "years": 25,
+        "preference": 70
+    },
+    {
+        "category": "DESIGN",
+        "title": "Illustrator",
+        "years": 25,
+        "preference": 65
+    },
+    {
+        "category": "DESIGN",
+        "title": "SketchUp",
+        "years": 3,
+        "preference": 10
+    }
+]
