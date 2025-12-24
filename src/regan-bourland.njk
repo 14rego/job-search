@@ -2,13 +2,13 @@
 layout: standard.njk
 ---
 <header>
-    <h1 class="text-center">Regan Bourland</h1>
-    <p class="text-center"><em>he/him/his<br>Seeking a full-time Web Development position—remote or local to Denver—ready for an immediate start.</em></p>
-    <p><b>Wisdom:</b> Over 20 years of professional experience in development, design, research, architecture, and&nbsp;leadership.</p>
-    <p><b>Depth:</b> I build compliant, inclusive, and modern web applications, but I also think beyond just writing code. I understand the business and user goals driving development. My various perspectives are great for bridging communication gaps between roles and/or teams; technical and non-technical.</p>
-    <p><b>Diversity:</b> My expertise spans modern stacks, complemented by a strong background in enterprise legacy systems. I'm great at pattern recognition, allowing me to step into almost any stack or environment and succeed. This allows me to hit the ground running.</p>
-    <p><b>Collaboration:</b> I help build - not just websites but - systems with efficiency, maintainability, and scalability in mind. I bring technical depth, architectural foresight, and team leadership skills.</p>
-    <p><b>Off-screen:</b> I travel, challenge myself with puzzles, creative tinkering, and adventuring outdoors with family and friends.</p>
+    <h1 class="text-center highlight">Regan Bourland</h1>
+    <p class="text-center"><em class="highlight">he/him/his<br>Seeking a full-time Web Development position—remote or local to Denver—ready for an immediate start.</em></p>
+    <p><strong>Wisdom:</strong> Over 20 years of professional experience in development, design, research, architecture, and&nbsp;leadership.</p>
+    <p><strong>Depth:</strong> I build compliant, inclusive, and modern web applications, but I also think beyond just writing code. I understand the business and user goals driving development. My various perspectives are great for bridging communication gaps between roles and/or teams; technical and non-technical.</p>
+    <p><strong>Diversity:</strong> My expertise spans modern stacks, complemented by a strong background in enterprise legacy systems. I'm great at pattern recognition, allowing me to step into almost any stack or environment and succeed. This allows me to hit the ground running.</p>
+    <p><strong>Collaboration:</strong> I help build - not just websites but - systems with efficiency, maintainability, and scalability in mind. I bring technical depth, architectural foresight, and team leadership skills.</p>
+    <p><strong>Off-screen:</strong> I travel, challenge myself with puzzles, creative tinkering, and adventuring outdoors with family and friends.</p>
 </header>
 <main>
     <section class="employ">
@@ -18,8 +18,10 @@ layout: standard.njk
                 {%- if job.relevant %}
                 <li>
                     <h3 class="flex-cols">
-                        <span>{{ job.title }};</span> 
-                        <span>{{ job.company }} 
+                        <strong>{{ job.title }};</strong> 
+                        <span>
+                            <strong>{{ job.company }};</strong>
+                            <span>{{ job.city }}, {{ job.state }}</span> 
                         {%- if job.end == 'Current' %}
                             <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
                         {%- else %}
@@ -34,8 +36,10 @@ layout: standard.njk
                 {%- else %}
                 <li class="no-print">
                     <h3 class="flex-cols">
-                        <span>{{ job.title }};</span> 
-                        <span>{{ job.company }} 
+                        <strong>{{ job.title }};</strong> 
+                        <span>
+                            <strong>{{ job.company }};</strong>
+                            <span>{{ job.city }}, {{ job.state }}</span> 
                         {%- if job.end == 'Current' %}
                             <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
                         {%- else %}
@@ -48,24 +52,11 @@ layout: standard.njk
             {%- endfor %}
         </ul>
     </section>
-    <section class="skills">
-        <h2>Technical Background</h2>
-        <ul class="skill-grid" aria-label="Technology Experience">
-            <li>
-                <span class="tiny">[CATEGORY]</span> 
-                <span>Skill</span>
-                <span class="years">Years</span>
-            </li>
-            {%- for skill in skills | azTitle %}
-                {% include "skill.njk" %}
-            {%- endfor %}
-        </ul>
-    </section>
     <section class="educate">
-        <h2>Education</h2>
+        <h2>Certificates and Degrees</h2>
         {%- for school in schools | dateDesc %}
             <h3 class="flex-cols">
-                <span>{{ school.name }};</span> 
+                <strong>{{ school.name }};</strong> 
                 <span>
                     <span>{{ school.city }}, {{ school.state }}</span> 
                     {%- if school.end == 'Current' %}
@@ -83,5 +74,18 @@ layout: standard.njk
                 {%- endfor %}
             </ul>
         {%- endfor %}
+    </section>
+    <section class="skills">
+        <h2>Technical Background</h2>
+        <ul class="skill-grid" aria-label="Technology Experience">
+            <li>
+                <span class="tiny">[CATEGORY]</span> 
+                <span>Skill</span>
+                <span class="years">Years</span>
+            </li>
+            {%- for skill in skills | azTitle %}
+                {% include "skill.njk" %}
+            {%- endfor %}
+        </ul>
     </section>
 </main>

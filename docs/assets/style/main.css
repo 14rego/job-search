@@ -11,7 +11,9 @@ body {
 
 a,
 h2,
-strong {
+p strong,
+li strong,
+.highlight {
     color: #00606B;
 }
 
@@ -22,6 +24,7 @@ h2 {
 
 h3 {
     margin: 0.75rem 0 0.5rem;
+    font-weight: 400;
 }
 
 h4,
@@ -107,7 +110,9 @@ footer {
 
     a,
     h2,
-    strong {
+    p strong,
+    li strong,
+    .highlight {
         color: #00A5B8;
     }
 
