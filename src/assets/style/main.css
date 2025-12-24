@@ -12,7 +12,7 @@ body {
 a,
 h2,
 p strong,
-li strong,
+li > strong,
 .highlight {
     color: #00606B;
 }
@@ -111,7 +111,7 @@ footer {
     a,
     h2,
     p strong,
-    li strong,
+    li > strong,
     .highlight {
         color: #00A5B8;
     }
