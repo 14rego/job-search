@@ -25,10 +25,10 @@ export default function (eleventyConfig) {
         return arr.sort((a, b) => a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1);
     });
     eleventyConfig.addFilter("dateAsc", (arr) => {
-        return arr.sort((a, b) => a.start && b.start && moment(a.start).format("x") > moment(b.start).format("x") ? -1 : 1);
+        return arr.sort((a, b) => moment(a.start, "MM/DD/YYYY").format("x") > moment(b.start, "MM/DD/YYYY").format("x") ? -1 : 1);
     });
     eleventyConfig.addFilter("dateDesc", (arr) => {
-        return arr.sort((a, b) => a.start && b.start && moment(a.start).format("x") > moment(b.start).format("x") ? 1 : -1);
+        return arr.sort((a, b) => moment(a.start, "MM/DD/YYYY").format("x") > moment(b.start, "MM/DD/YYYY").format("x") ? 1 : -1);
     });
     eleventyConfig.addFilter("preference", (arr) => {
         return arr.sort((a, b) => a.preference > b.preference ? -1 : 1);
