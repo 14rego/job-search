@@ -1,5 +1,6 @@
 [
     {
+        "type": "degree",
         "name": "Graceland University",
         "city": "Lamoni",
         "state": "IA",
@@ -21,6 +22,7 @@
         ]
     },
     {
+        "type": "certification",
         "name": "Adobe",
         "city": "San Jose",
         "state": "CA",
@@ -34,6 +36,7 @@
         ]
     },
     {
+        "type": "certification",
         "name": "Amazon Web Services",
         "city": "Seattle",
         "state": "WA",

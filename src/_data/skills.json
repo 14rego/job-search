@@ -93,7 +93,7 @@
 
     {
         "category": "UI",
-        "title": "JavaScript ES6",
+        "title": "JavaScript",
         "years": 15,
         "preference": 95
     },
@@ -186,7 +186,7 @@
     {
         "category": "OPS",
         "title": "Maven",
-        "years": 2,
+        "years": 3,
         "preference": 75
     },
     {

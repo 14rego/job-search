@@ -3,11 +3,13 @@ layout: standard.njk
 ---
 <main>
     <section class="employ">
-        <h2>Recent Professional Experience</h2>
+        <h2>Professional Experience</h2>
         <ul>
             {%- for job in positions | dateAsc %}
-                {%- if (job.relevant and loop.index <= 4) %}
+                {%- if job.relevant %}
                     {% include "position.njk" %}
+                {%- else %}
+                    {% include "position_nonrelevant.njk" %}
                 {%- endif %}
             {%- endfor %}
         </ul>
@@ -15,11 +17,7 @@ layout: standard.njk
     <section class="educate">
         <h2>Certificates and Degrees</h2>
         {%- for school in schools | dateDesc %}
-            {%- if school.type == 'degree' %}
-                {% include "school.njk" %}
-            {%- elseif school.end == 'Current' %}
-                {% include "school_brief.njk" %}
-            {%- endif %}
+            {% include "school.njk" %}
         {%- endfor %}
     </section>
     <section class="skills">
