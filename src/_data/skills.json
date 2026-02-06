@@ -2,13 +2,13 @@
     {
         "category": "FWK",
         "title": "Vue",
-        "years": 4,
+        "years": 5,
         "preference": 80
     },
     {
         "category": "FWK",
         "title": "AEM",
-        "years": 3,
+        "years": 4,
         "preference": 75
     },
     {
@@ -75,7 +75,7 @@
     {
         "category": "FE",
         "title": "HTL / Sightly",
-        "years": 3,
+        "years": 4,
         "preference": 80
     },
     {
@@ -87,32 +87,32 @@
     {
         "category": "FE",
         "title": "JSP",
-        "years": 3,
+        "years": 4,
         "preference": 70
     },
 
     {
         "category": "UI",
         "title": "JavaScript",
-        "years": 15,
+        "years": 16,
         "preference": 95
     },
     {
         "category": "UI",
         "title": "Tailwind",
-        "years": 4,
+        "years": 5,
         "preference": 90
     },
     {
         "category": "UI",
         "title": "SASS / Less",
-        "years": 12,
+        "years": 13,
         "preference": 85
     },
     {
         "category": "UI",
         "title": "GSAP",
-        "years": 11,
+        "years": 12,
         "preference": 80
     },
     {
@@ -124,7 +124,7 @@
     {
         "category": "UI",
         "title": "Bootstrap",
-        "years": 12,
+        "years": 13,
         "preference": 70
     },
     {
@@ -136,7 +136,7 @@
     {
         "category": "UI",
         "title": "jQuery",
-        "years": 12,
+        "years": 13,
         "preference": 60
     },
     {
@@ -167,7 +167,7 @@
     {
         "category": "BE",
         "title": "Java",
-        "years": 3,
+        "years": 4,
         "preference": 50
     },
 
@@ -180,13 +180,13 @@
     {
         "category": "OPS",
         "title": "Apache",
-        "years": 15,
+        "years": 16,
         "preference": 80
     },
     {
         "category": "OPS",
         "title": "Maven",
-        "years": 3,
+        "years": 4,
         "preference": 75
     },
     {
@@ -198,13 +198,13 @@
     {
         "category": "OPS",
         "title": "Vite",
-        "years": 3,
+        "years": 4,
         "preference": 65
     },
     {
         "category": "OPS",
         "title": "Node",
-        "years": 8,
+        "years": 12,
         "preference": 60
     },
     {
@@ -228,7 +228,7 @@
     {
         "category": "OPS",
         "title": "Yarn",
-        "years": 2,
+        "years": 4,
         "preference": 40
     },
     {
@@ -259,7 +259,7 @@
     {
         "category": "DATA",
         "title": "Pinia",
-        "years": 4,
+        "years": 5,
         "preference": 60
     },
     {
@@ -278,13 +278,13 @@
     {
         "category": "TEST",
         "title": "Selenium",
-        "years": 4,
+        "years": 5,
         "preference": 70
     },
     {
         "category": "TEST",
         "title": "NUnit",
-        "years": 4,
+        "years": 5,
         "preference": 40
     },
 
@@ -303,7 +303,7 @@
     {
         "category": "DESIGN",
         "title": "Figma",
-        "years": 4,
+        "years": 6,
         "preference": 75
     },
     {

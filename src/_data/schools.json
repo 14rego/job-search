@@ -27,7 +27,7 @@
         "city": "San Jose",
         "state": "CA",
         "start": "09/12/2016",
-        "end": "Current",
+        "end": "08/31/2020",
         "highlights": [
             {
                 "title": "Adobe Experience Manager",
@@ -41,15 +41,25 @@
         "city": "Seattle",
         "state": "WA",
         "start": "09/01/2018",
+        "end": "09/01/2019",
+        "highlights": [
+            {
+                "title": "Accreditation",
+                "text": "Business Professional"
+            }
+        ]
+    },
+    {
+        "type": "certification",
+        "name": "Amazon Web Services",
+        "city": "Seattle",
+        "state": "WA",
+        "start": "03/31/2019",
         "end": "03/31/2020",
         "highlights": [
             {
                 "title": "Accreditation",
-                "text": "Business Professional (2018-19)"
-            },
-            {
-                "title": "Accreditation",
-                "text": "Total Cost of Ownership and Cloud Economics (2019-20)"
+                "text": "Total Cost of Ownership and Cloud Economics"
             }
         ]
     }

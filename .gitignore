@@ -2,3 +2,6 @@
 cover.txt
 /node_modules
 src/_data/contacts.json
+.DS_Store
+r-bourland.pdf
+r-bourland.txt
