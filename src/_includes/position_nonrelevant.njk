@@ -1,13 +1,13 @@
 <li class="no-print">
     <h3 class="flex-cols">
-        <strong>{{ job.title }};</strong> 
+        <strong>{{ job.title }}</strong> 
         <span>
             <strong>{{ job.company }};</strong>
             <span>{{ job.city }}, {{ job.state }}</span> 
         {%- if job.end == 'Current' %}
-            <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
+            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end }}</em>&thinsp;)</span>
         {%- else %}
-            <span>(<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>)</span>
+            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>&thinsp;)</span>
         {%- endif %}
         </span>
     </h3>

@@ -25,11 +25,6 @@ layout: standard.njk
     <section class="skills">
         <h2>Technical Background</h2>
         <ul class="skill-grid" aria-label="Technology Experience">
-            <li>
-                <span>Skill</span>
-                <span class="tiny">[CATEGORY]</span> 
-                <span class="years">Years</span>
-            </li>
             {%- for skill in skills | azTitle %}
                 {% include "skill.njk" %}
             {%- endfor %}

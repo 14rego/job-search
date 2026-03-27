@@ -9,6 +9,10 @@ body {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 a,
 h2,
 p strong,
@@ -22,12 +26,12 @@ h2 {
     margin: 0.25rem 0 0.75rem;
 }
 
-h3 {
+h3, 
+h4 {
     margin: 0.75rem 0 0.5rem;
     font-weight: 400;
 }
 
-h4,
 p {
     margin: 0.75rem 0;
 }
@@ -131,6 +135,11 @@ footer {
     .skill-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    .flex-cols {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -144,12 +153,6 @@ footer {
         justify-content: space-between;
         margin: 0;
         padding: 0;
-    }
-
-    .flex-cols {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 }
 

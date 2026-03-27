@@ -1,17 +1,18 @@
 <li>
     <h3 class="flex-cols">
-        <strong>{{ job.title }};</strong> 
-        <span>
-            <strong>{{ job.company }};</strong>
-            <span>{{ job.city }}, {{ job.state }}</span> 
+        <strong>{{ job.title }}</strong> 
+        <span class="text-right">
+            <strong>{{ job.company }}</strong><br/>
+            <small>{{ job.industry }};</small>
+            <small>{{ job.city }}, {{ job.state }}</small> 
         {%- if job.end == 'Current' %}
-            <span>(<em>{{ job.start | yyyy }}-{{ job.end }}</em>)</span>
+            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end }}</em>&thinsp;)</span>
         {%- else %}
-            <span>(<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>)</span>
+            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>&thinsp;)</span>
         {%- endif %}
         </span>
     </h3>
     <ul>
-        {%- for b in job.bullets %}<li>{{ b }}</li>{%- endfor %}
+        {%- for b in job.tech %}<li>{{ b }}</li>{%- endfor %}
     </ul>
 </li>

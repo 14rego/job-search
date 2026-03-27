@@ -1,9 +1,9 @@
 {%- for hl in school.highlights %}
-<h3 class="flex-cols">
+<h4 class="flex-cols">
     <strong>{{ school.name }};</strong> 
     <span>
         <span>{{ hl.title }}: {{ hl.text }}</span>
-        <span>(<em>{{ school.start | yyyy }}</em>)</span>
+        <span>(&thinsp;<em>{{ school.start | yyyy }}</em>&thinsp;)</span>
     </span>
-</h3>        
+</h4>        
 {%- endfor %}

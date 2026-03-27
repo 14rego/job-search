@@ -1,16 +1,24 @@
 [
     {
         "company": "Pro Athlete, Inc.",
-        "description": "Sporting Goods E-commerce",
+        "industry": "E-commerce: Sporting Goods",
         "city": "Kansas City",
         "state": "MO",
         "phone": "+1 (816) 587-6050",
         "start": "06/21/2021",
         "end": "Current",
         "title": "Senior Front-End Developer",
-        "summary": "Plan accessibility, user experience, A/B and UI testing, design integration, and development of all legacy B2C e-commerce sites and several modern internal business applications.",
+        "summary": "Plan accessibility, user experience, A/B and UI testing, design integration, and development of B2C e-commerce sites and several internal business applications.",
         "detail": "",
-        "bullets": [
+        "tech": [
+            "Migrated legacy .NET MVC [with jQuery] web applications to Vue [with Vite, Nuxt, Pinia, and Tailwind]",
+            "Led accessibility audits and improvements, ensuring compliance with WCAG standards while minimizing legal risk",
+            "Built and integrated NUnit with Selenium test suite into CI/CD pipeline",
+            "Worked with GTM and Clarity to analyze user behavior and optimize site performance and user experience",
+            "Collaborated with UX and A/B testing teams to maximize user engagement and conversion rates",
+            "Additionally utilized: JavaScript ES6, Figma, HubSpot, Optimize, SQL Server, and AWS S3 and Cloudfront"
+        ],
+        "vague": [
             "Planned and executed accessibility and user experience strategies for B2C e-commerce sites.",
             "Conducted A/B and UI testing to enhance user engagement and site performance.",
             "Integrated modern design and WCAG accessibility principles into legacy applications, improving overall functionality.",
@@ -37,16 +45,21 @@
     },
     {
         "company": "Diamond Merckens Hogan",
-        "description": "Marketing Agency",
+        "industry": "Marketing: Agency",
         "city": "Kansas City",
         "state": "MO",
         "phone": "+1 (816) 471-4364",
         "start": "07/31/2019",
         "end": "06/21/2021",
         "title": "Senior Full-Stack Developer",
-        "summary": "Develop and ensure static, CMS, and e-commerce sites were in fully functional, user friendly, and accessible. Created and managed any and all AEM projects. Full-stack developer for all projects - whether AEM, Wagtail, Wordpress, or otherwise.",
+        "summary": "Develop and ensure static, CMS, and e-commerce sites were fully functional, user friendly, and accessible. Created and managed any and all AEM projects.",
         "detail": "Front- and back-end web development. Met with clients, creative teams, and dev/IT team to make sure static, CMS, and e-commerce sites were in fully functional, user friendly, and accessible. Leading development (AEM 6.4) in a larger AMS ecosystem. In charge of [Circle] CI, Apache server configs, OSGI configs, Java services, and ongoing component development (all UX/UI included).",
-        "bullets": [
+        "tech": [
+            "Led Adobe Experience Manager (AEM) web development (utilizing Java, Maven, OSGI, Sightly, and jQuery)",
+            "Maintained and developed Django sites (utilizing Python, Wagtail, and Oscar)",
+            "Maintained and developed Wordpress sites (utilizing PHP, and jQuery)"
+        ],
+        "vague": [
             "Developed and maintained static, CMS, and e-commerce sites to ensure full functionality and user accessibility.",
             "Managed and optimized sites for security, performance, and enhanced user experience.",
             "Collaborated with cross-functional teams to deliver user-friendly web solutions that meet client needs."
@@ -68,7 +81,7 @@
     {
         "company": "Artisan Technology Group",
         "now": "Viagio Technology",
-        "description": "Software Consulting",
+        "industry": "Technology: Consulting Solutions",
         "city": "Kansas City",
         "state": "MO",
         "phone": "+1 (816) 226-6217",
@@ -77,7 +90,11 @@
         "title": "User Experience Architect",
         "summary": "",
         "detail": "I worked closely with our partners and clients to improve messaging and strategic tactics throughout their brands and systems. Beginning with market research and in-depth business discovery I organized, planned, designed, prototyped, and developed custom interfaces and marketing materials for a wide variety of technology applications.",
-        "bullets": [
+        "tech": [
+            "Organized, planned, designed, prototyped, and developed custom solutions for a wide variety of technology applications (utilizing Angular, React, Material, and XD)",
+            "Conducted market research and in-depth business discovery to provide user-centric design solutions"
+        ],
+        "vague": [
             "Collaborated with partners and clients to enhance messaging and business strategies.",
             "Conducted market research and in-depth business discovery to provide user-centric design solutions.",
             "Organized, planned, prototyped, and developed custom interfaces and marketing materials tailored to client needs."
@@ -95,7 +112,7 @@
     {
         "company": "Intouch Solutions, Inc.",
         "now": "Eversana",
-        "description": "Healthcare Marketing Agency",
+        "industry": "Marketing: Agency",
         "city": "Overland Park",
         "state": "KS",
         "phone": "+1 (913) 317-3700",
@@ -104,7 +121,13 @@
         "title": "Principal Developer",
         "summary": "I worked closely with developers, architects and C-suite on complex and high-profile projects. I often acted as liaison with technology vendors and client IT groups. While my primary focus was always implementation and development, my team created SOPs, documented standards, and I mentored team developers. We created an enterprise-scale component library and style guide to be reused across brand properties.",
         "detail": "Work closely with architects and execs on complex or high-profile projects. Often acting as liaison with technology vendors and client IT groups while leading small teams of developers. Creation, implementation, and ongoing development of a reusable component library. Documentation and mentoring team developers on specific technologies to ensure the long-term growth of the business.",
-        "bullets": [
+        "tech": [
+            "Developed dozens of websites for Fortune 500 healtchcare companies (utilizing .NET MVC, AEM, Java, Maven, JavaScript ES6, Sightly, jQuery, Bootstrap, Veeva, and Angular)",
+            "Acted as a liaison between technology vendors and client IT groups to facilitate seamless communication and project execution",
+            "Developed standard operating procedures and documented code standards while mentoring team developers to become certified experts",
+            "Led the creation of an enterprise-scale component library and design system for consistent branding and functionality across enterprise solutions"
+        ],
+        "vague": [
             "Collaborated with developers, architects, and C-suite on high-profile projects, ensuring alignment on goals and deliverables.",
             "Acted as a liaison between technology vendors and client IT groups to facilitate seamless communication and project execution.",
             "Developed standard operating procedures and documented code standards while mentoring team developers to enhance skill sets.",
@@ -117,14 +140,15 @@
             "JavaScript ES6",
             "HTL / Sightly",
             "jQuery",
-            "Angular"
+            "Angular",
+            "Bootstrap"
         ],
         "relevant": true
     },
     {
         "company": "Softek Solutions, Inc.",
         "now": null,
-        "description": "Healthcare Software",
+        "industry": "Technology: Healthcare Software",
         "city": "Prairie Village",
         "state": "KS",
         "phone": "+1 (913) 649-1024",
@@ -133,7 +157,11 @@
         "title": "Web Developer",
         "summary": "Design and development of the websites, social networking and general online presence of SSI. Rolled a custom PHP CMS for all web properties and an online education management application.",
         "detail": "Design and development of the websites, social networking and general online presence of SSI. Rolled a custom PHP CMS for all web properties and an online education management application.",
-        "bullets": [
+        "tech": [
+            "Designed and developed the public web experience (utilizing PHP, JavaScript ES6, jQuery, Bootstrap and PostgreSQL)",
+            "Managed entire online presence, including social networking platforms and event management"
+        ],
+        "vague": [
             "Designed and developed the web experience for the public domain, enhancing product visibility.",
             "Managed the online presence, including social networking platforms and event management systems.",
             "Collaborated with team members to ensure a cohesive brand identity across digital channels."
@@ -142,6 +170,7 @@
             "PHP",
             "PostgreSQL",
             "jQuery",
+            "Bootstrap",
             "JavaScript ES6"
         ],
         "relevant": true
@@ -149,7 +178,7 @@
     {
         "company": "Ultra International",
         "now": "Ultra Soap International",
-        "description": "Manufacturer",
+        "industry": "Manufacturing: Consumer Products",
         "city": "Kansas City",
         "state": "MO",
         "phone": "+1 (800) 458-7627",
@@ -158,7 +187,10 @@
         "title": "Web Developer",
         "summary": "Design and development of the websites of UI and its subsidiaries. Included an admin area for MLM members and back office e-commerce.",
         "detail": "",
-        "bullets": [
+        "tech": [
+            ""
+        ],
+        "vague": [
             "Maintained multiple websites for Ultra International, ensuring optimal performance and user experience.",
             "Developed innovative marketing strategies for the company and subsidiaries to enhance product visibility."
         ],
@@ -173,7 +205,7 @@
     {
         "company": "Fort Dodge Animal Health",
         "now": "Zoetis",
-        "description": "Verterinary Pharmaceutical Manufacturing",
+        "industry": "Pharmaceutical: Verterinary",
         "city": "Overland Park",
         "state": "KS",
         "phone": null,
@@ -182,7 +214,10 @@
         "title": "Creative Artist",
         "summary": "Designed marketing and sales support materials for Fort Dodge Animal Health and our parent company, Wyeth Pharmaceuticals - almost solely print production.",
         "detail": "",
-        "bullets": [
+        "tech": [
+            ""
+        ],
+        "vague": [
             "Designed and produced a variety of marketing materials, including brochures and advertisements.",
             "Coordinated with vendors to ensure quality and timely delivery of projects.",
             "Collaborated with graphic designers and marketing teams to develop effective communication strategies.",
@@ -195,9 +230,9 @@
         "relevant": false
     },
     {
-        "company": "Kansas City Star",
+        "company": "The Kansas City Star",
         "now": null,
-        "description": "Regional News Service",
+        "industry": "Journalism: Regional News",
         "city": "Kansas City",
         "state": "MO",
         "phone": "+1 (816) 234-4907",
@@ -206,7 +241,10 @@
         "title": "Designer and Developer",
         "summary": "Began designing display ads for placement in the Kansas City Star. Then designed and developed banner ads, forms, widgets, websites, e-mail campaigns, etc. for KansasCity.com and interoffice McClatchy Interactive use.",
         "detail": "",
-        "bullets": [],
+        "tech": [
+            ""
+        ],
+        "vague": [],
         "skills": [
             "Photoshop",
             "Illustrator",
@@ -217,7 +255,7 @@
     {
         "company": "H & H Color Lab",
         "now": null,
-        "description": "Photography Lab",
+        "industry": "Service: Photography",
         "city": "Raytown",
         "state": "MO",
         "phone": "+1 (800) 821-1305",
@@ -226,7 +264,10 @@
         "title": "Digital Retouch Specialist",
         "summary": "Retouch professional photos in a production environment.",
         "detail": "Extensive training and labor in Adobe Photoshop retouching professional photographs.",
-        "bullets": [],
+        "tech": [
+            ""
+        ],
+        "vague": [],
         "skills": [
             "Photoshop"
         ],
@@ -235,7 +276,7 @@
     {
         "company": "Graceland University Creative Media Center",
         "now": null,
-        "description": "Marketing Department",
+        "industry": "Education: Marketing",
         "city": "Lamoni",
         "state": "IA",
         "phone": "+1 (641) 784-5000",
@@ -244,7 +285,10 @@
         "title": "Graphic Designer",
         "summary": "Part- and full-time in the Creative Media Center, designing mostly through the athletic department (programs, schedules, posters, etc.).",
         "detail": "",
-        "bullets": [],
+        "tech": [
+            ""
+        ],
+        "vague": [],
         "skills": [
             "Photoshop",
             "Illustrator"

@@ -1,18 +1,13 @@
 <h3 class="flex-cols">
     <strong>{{ school.name }};</strong> 
     <span>
-        <span>{{ school.city }}, {{ school.state }}</span> 
+        <span>{{ school.highlights[0].text }}</span> 
         {%- if school.end == 'Current' %}
-            <span>(<em>{{ school.start | yyyy }}-{{ school.end }}</em>)</span>
+            <span>(&thinsp;<em>{{ school.start | yyyy }}-{{ school.end }}</em>&thinsp;)</span>
         {%- elif school.end %}
-            <span>(<em>{{ school.start | yyyy }}-{{ school.end | yyyy }}</em>)</span>
+            <span>(&thinsp;<em>{{ school.start | yyyy }}-{{ school.end | yyyy }}</em>&thinsp;)</span>
         {%- else %}
-            <span>(<em>{{ school.start | yyyy }}</em>)</span>
+            <span>(&thinsp;<em>{{ school.start | yyyy }}</em>&thinsp;)</span>
         {%- endif %}
     </span>
 </h3>
-<ul class="flex-cols">
-    {%- for hl in school.highlights %}
-        <li><strong>{{ hl.title }}:</strong> {{ hl.text }}</li>
-    {%- endfor %}
-</ul>

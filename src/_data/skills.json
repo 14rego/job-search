@@ -203,6 +203,12 @@
     },
     {
         "category": "OPS",
+        "title": "Nuxt",
+        "years": 1,
+        "preference": 40
+    },
+    {
+        "category": "OPS",
         "title": "Node",
         "years": 12,
         "preference": 60
