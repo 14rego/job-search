@@ -11,7 +11,7 @@
         "summary": "Plan accessibility, user experience, A/B and UI testing, design integration, and development of B2C e-commerce sites and several internal business applications.",
         "detail": "",
         "tech": [
-            "Migrated legacy .NET MVC [with jQuery] web applications to Vue [with Vite, Nuxt, Pinia, and Tailwind]",
+            "Migrated legacy .NET MVC (with jQuery) web applications to Vue (with Vite, Nuxt, Pinia, and Tailwind)",
             "Led accessibility audits and improvements, ensuring compliance with WCAG standards while minimizing legal risk",
             "Built and integrated NUnit with Selenium test suite into CI/CD pipeline",
             "Worked with GTM and Clarity to analyze user behavior and optimize site performance and user experience",

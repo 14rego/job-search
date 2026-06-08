@@ -3,12 +3,11 @@
         <strong>{{ job.title }}</strong> 
         <span class="text-right">
             <strong>{{ job.company }}</strong><br/>
-            <small>{{ job.industry }};</small>
-            <small>{{ job.city }}, {{ job.state }}</small> 
+            <small>{{ job.city }}, {{ job.state }}</small>
         {%- if job.end == 'Current' %}
-            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end }}</em>&thinsp;)</span>
+            <span>&nbsp;&nbsp;(&thinsp;<em>{{ job.start | mmmyyyy }}&thinsp;-&thinsp;{{ job.end }}</em>&thinsp;)</span>
         {%- else %}
-            <span>(&thinsp;<em>{{ job.start | yyyy }}-{{ job.end | yyyy }}</em>&thinsp;)</span>
+            <span>&nbsp;&nbsp;(&thinsp;<em>{{ job.start | mmmyyyy }}&thinsp;-&thinsp;{{ job.end | mmmyyyy }}</em>&thinsp;)</span>
         {%- endif %}
         </span>
     </h3>

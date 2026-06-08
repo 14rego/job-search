@@ -2,6 +2,7 @@
     <strong>{{ school.name }};</strong> 
     <span>
         <span>{{ school.highlights[0].text }}</span> 
+        <span>in {{ school.highlights[1].text }}</span> 
         {%- if school.end == 'Current' %}
             <span>(&thinsp;<em>{{ school.start | yyyy }}-{{ school.end }}</em>&thinsp;)</span>
         {%- elif school.end %}
